@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "apple-dev",
+  "displayName": "Apple Dev",
+  "version": "0.1.0",
+  "description": "iOS development skill bundle: mirror a running Simulator into an in-app browser (cmux / Chrome / your runtime's browser) and capture proof frames, or live-iterate SwiftUI previews from importable Swift packages with hot reload. Runtime-agnostic across Claude Code, Codex, and Cursor.",
+  "author": {
+    "name": "jeonghi",
+    "url": "https://github.com/jeonghi"
+  },
+  "homepage": "https://github.com/jeonghi/Apple-Developer-Plugins",
+  "repository": "https://github.com/jeonghi/Apple-Developer-Plugins",
+  "license": "MIT",
+  "keywords": ["ios", "simulator", "swiftui", "preview", "hot-reload", "serve-sim", "cmux", "xcode", "accessibility"],
+  "skills": "./skills/"
+}

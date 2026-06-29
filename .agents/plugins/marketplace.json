@@ -1,0 +1,20 @@
+{
+  "name": "apple-developer-plugins",
+  "interface": {
+    "displayName": "Apple Developer Plugins"
+  },
+  "plugins": [
+    {
+      "name": "apple-dev",
+      "source": {
+        "source": "local",
+        "path": "./plugins/apple-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "products": ["CODEX"]
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

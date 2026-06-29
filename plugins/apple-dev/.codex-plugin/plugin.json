@@ -1,0 +1,30 @@
+{
+  "name": "apple-dev",
+  "version": "0.1.0",
+  "description": "iOS development skill bundle: mirror a running Simulator into an in-app browser and capture proof frames, and live-iterate SwiftUI previews from importable Swift packages with hot reload.",
+  "author": {
+    "name": "jeonghi",
+    "url": "https://github.com/jeonghi"
+  },
+  "homepage": "https://github.com/jeonghi/Apple-Developer-Plugins",
+  "repository": "https://github.com/jeonghi/Apple-Developer-Plugins",
+  "license": "MIT",
+  "keywords": ["ios", "simulator", "swiftui", "preview", "hot-reload", "serve-sim", "cmux", "xcode"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Apple Dev",
+    "shortDescription": "Mirror an iOS Simulator into a browser and live-iterate SwiftUI previews",
+    "longDescription": "iOS development workflows for AI coding agents. Mirror a running iOS Simulator into an in-app browser (cmux in-app browser, Chrome, or the runtime's own browser) via serve-sim and capture proof frames, or render SwiftUI previews from an importable Swift package in the simulator with dylib hot reload — no Xcode Canvas required. The browser step is environment-aware, so it works the same in Codex, Claude Code, Cursor, or any agent hosted in cmux.",
+    "developerName": "jeonghi",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://github.com/jeonghi/Apple-Developer-Plugins",
+    "defaultPrompt": [
+      "Mirror the iOS simulator in the browser and show me a frame."
+    ],
+    "brandColor": "#0A84FF",
+    "composerIcon": "./assets/apple-dev-small.svg",
+    "logo": "./assets/app-icon.png",
+    "screenshots": []
+  }
+}

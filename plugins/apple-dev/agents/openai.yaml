@@ -1,0 +1,6 @@
+interface:
+  display_name: "Apple Dev"
+  short_description: "Mirror an iOS Simulator into a browser and live-iterate SwiftUI previews"
+  icon_small: "./assets/apple-dev-small.svg"
+  icon_large: "./assets/app-icon.png"
+  default_prompt: "Mirror the iOS simulator in the browser and show me a frame."
